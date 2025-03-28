@@ -1,15 +1,12 @@
 # User Behaviour dataset
 
-Aim
-
+#Aim
 The objective of this project is to analyze user behaviour data using Power BI and create insightful visualizations to understand key trends, patterns, and factors influencing customer retention. Additionally, we will explore how to connect Power BI to a MySQL database using both direct and Python-based connections.
 
-About the Dataset
-
+#About the Dataset
 File Name: user_behavior_dataset.csvDescription: This dataset contains user-related information, including demographics, device usage, and behavior metrics. The goal is to analyze factors that contribute to user engagement and potential churn.
 
-Key Features:
-
+#Key Features:
 User ID
 
 Device Model
@@ -32,7 +29,7 @@ Gender
 
 User Behavior Class
 
-Power BI Instructions
+#Power BI Instructions
 
 1. Data Import & Transformation
 
@@ -52,11 +49,9 @@ Designed an interactive dashboard with various visualizations, including:
 
 Bar Charts: To analyze user engagement trends by operating system and user behavior class.
 
-Pie Charts: To visualize the distribution of gender, device models, and app usage habits.
-
 Line Charts: To track the trend of screen-on time by age group.
 
-Donut Charts: To display the average data usage per operating system.
+Donut Charts: To display the average data usage per operating system
 
 Insights & Analysis
 
@@ -68,7 +63,7 @@ Examined the impact of app usage time on battery consumption and data usage.
 
 Discovered correlations between number of installed apps and user behavior class.
 
-MySQL Connection in Power BI
+#MySQL Connection in Power BI
 
 1. Direct Connection to MySQL
 
@@ -123,13 +118,13 @@ df
 Click OK, then load the data into Power BI for visualization.
 Also perform crud operation using workbench
 
-Export & Documentation
+#Export & Documentation
 
 Saved the .pbix file containing all reports.
 
 Captured screenshots of key dashboard insights for reference.
 
-Screenshots:
+#Screenshots:
 
 Below is the link to the screenshots taken from the Power BI dashboard:
 
