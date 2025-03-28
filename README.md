@@ -107,7 +107,6 @@ Enter the following Python script:
 import mysql.connector
 import pandas as pd
 
-# Establish connection
 conn = mysql.connector.connect(
     host='your_server',
     user='your_username',
@@ -115,13 +114,10 @@ conn = mysql.connector.connect(
     database='your_database'
 )
 
-# Query the database
 df = pd.read_sql("SELECT * FROM user_data", conn)
 
-# Close connection
 conn.close()
 
-# Return data
 df
 
 Click OK, then load the data into Power BI for visualization.
